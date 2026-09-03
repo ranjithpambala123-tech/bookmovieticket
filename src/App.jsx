@@ -11,8 +11,9 @@ import Showtime from './component/Showtime'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import SeatSelection from './pages/Seatselection'
-import Payment from './pages/payment'
+
 import MyBookings from './pages/MyBooking'
+import Payment from './pages/Payment';
 
 
 
