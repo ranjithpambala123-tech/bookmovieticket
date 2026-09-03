@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
 import showData from "../data/showData";
-import ShowtimeCard from "./Showtimecard";
+import ShowtimeCard from './ShowtimeCard';
+
 
 export default function Showtime() {
   const { state } = useLocation();
