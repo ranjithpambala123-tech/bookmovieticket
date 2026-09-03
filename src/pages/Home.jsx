@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-100">
@@ -14,19 +16,19 @@ export default function Home() {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a
-              href="/movies"
+            <Link
+              to="/movies"
               className="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold shadow-lg hover:bg-gray-100 transition"
             >
               🎬 Browse Movies
-            </a>
+            </Link>
 
-            <a
-              href="/mybooking"
+            <Link
+              to="/mybooking"
               className="bg-black text-white px-8 py-3 rounded-lg font-semibold shadow-lg hover:bg-gray-800 transition"
             >
               🎟️ My Bookings
-            </a>
+            </Link>
           </div>
         </div>
       </section>
