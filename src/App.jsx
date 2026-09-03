@@ -6,8 +6,7 @@ import './App.css'
 import Navbar from './component/Navbar'
 import Footer from './component/Footer';
 import MovieCards from './component/Moviecard'
-import SearchBar from './component/Searchbar'
-import GenreFilter from './component/Genrefilter'
+
 import Showtime from './component/Showtime'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
