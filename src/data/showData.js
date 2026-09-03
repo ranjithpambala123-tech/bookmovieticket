@@ -20,6 +20,13 @@ const showData = [
     date: "01 Sep 2026",
     timings: ["9:00 AM", "12:30 PM", "4:30 PM", "8:30 PM"],
   },
+  {
+    id: 4,
+    theater: "AAA Cinemas",
+    location: "Amerpet",
+    date: "01 Sep 2026",
+    timings: ["9:00 AM", "12:30 PM", "4:30 PM", "8:30 PM"],
+  },
 ];
 
 export default showData;
